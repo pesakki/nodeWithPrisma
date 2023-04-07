@@ -1,0 +1,117 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 100vh;
+}
+.header {
+  width: 200%;
+  text-align: left;
+  padding: 2rem;
+  margin-bottom: 30px;
+}
+.container {
+  display: flex;
+}
+
+.box {
+  border: 1px solid black;
+  padding: 4rem;
+  margin-right: 1rem;
+  flex: 1;
+}
+
+.gif-box {
+  border: 1px solid black;
+  padding: 1rem;
+  flex: 1;
+}
+
+.gif {
+  max-width: 100%;
+  height: auto;
+}
+
+.no-employees {
+  text-align:center;
+  margin-bottom: 70rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(20, 20, 20);
+}
+.logo {
+  width: 15rem;
+  height: auto;
+  margin-left: 19rem;
+}
+.gif {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.personal-details {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.bank-details {
+  margin-left: 30px;
+  margin-bottom: 160px;
+  align-items: center;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  font-size: 14px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+textarea {
+  width: 98%;
+  height: 45px; 
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 16px;
+  border-color: black;
+  
+}
+
+.save-button {
+  background-color: #7D45BA;
+  color: white;
+  font-size: 10px;
+  border: none;
+  padding: 5px- 10px;
+  border-radius: 70px;
+  cursor: pointer;
+}
+
+.save-button {
+  position: absolute;
+  bottom: 10px;
+  left: 200px;
+}
+
